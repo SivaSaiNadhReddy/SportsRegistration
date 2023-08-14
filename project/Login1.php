@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <style>
+            #table1{
+                background-color: blue;
+                color: aliceblue;
+                padding: 20px;
+            }
+            #a1{
+                color: aliceblue;
+                background-color: transparent;
+                text-decoration: none;
+                font-size: 135%;
+            }
+            .form1{
+                justify-content: center;
+                display: flex;
+                margin: 40px 50px;
+                border: 3px solid blue;
+                padding: 30px;
+                background-color: rgb(208, 205, 248);
+            }
+            h1{
+                color : rgb(78, 247, 6);
+            }
+        </style>
+    </head>
+
+    
+
+    <body>
+        <p style="font-size: 80px;">
+            <img src="logo.JPG" width="7%" height="7%">
+            SPORTS
+            <table style="width: 100%;" id="table1">
+                <tr>
+                    <th><a href="Project%20S.html" id="a1">Home</a></th>
+                    <th><a href="scheme.html" id="a1">Scheme/Gudilines</a></th>
+                    <th><a href="Registration.php" id="a1">Registration</a></th>
+                    <th><a href="Login.php" id="a1">Login</a></th>
+                    <th><a href="contact.html" id="a1">Contact</a></th>
+                    <th><a href="aboutus.html" id="a1">About Us</a></th>
+                </tr>
+            </table>
+        </p>
+        <div class="form1">
+        <form method="POST" action="">
+            <h1>Login</h1><br>
+            Email Address<br>
+            <input type="text" id="Email" name="Email"><br><br />
+            Password<br>
+            <input type="Password" id="Password" name="Password"><br><br />
+            <table>
+                <tr>
+                    <td colspan="2" style="text-align: center;"><button type="submit" id="login" name="login">Log in</button></td> 
+                </tr>
+                <tr>
+                    <td><a href="Registration.php">Register a New User?</a></td>
+                </tr>
+            </table>
+        </form>
+        </div>
+    </body>
+</html>
